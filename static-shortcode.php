@@ -6,8 +6,8 @@
  */
 
 //# 'profile' => 'jeta profile aer moddhe static shortcode use kora hobe',"function aer name ta hobe";
-
 add_shortcode( 'profile', 'foobar_func' ); 
+
  function foobar_func( $atts ){
   //ob_start() PHP function টার কাজ হলো output buffering শুরু করা। সহজ ভাষায়, এটা ব্রাউজারে কিছু output পাঠানোর আগে সেই output-টা মেমোরিতে ধরে রাখে, যাতে তুমি পরে সেটা modify বা control করতে পারো।
         ob_start(); 
